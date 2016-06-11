@@ -42,3 +42,60 @@ second_list = ['three', 'four']
 
 print "Joining Lists"
 print first_list + second_list
+
+
+# We can also replace values on a given list
+
+print "List without changes"
+print first_list
+first_list[0] = 10 # here we change the value on the first position with 10
+print "List after the change"
+print first_list
+
+
+# Tuples
+
+# A tuple is basically the same thing as a list, it keeps many values separated by commas
+# but using ( ) instead of [ ], also we can't change the values or the size of the tuple
+
+my_tuple = ( 'abc', 1, 1.2 )  # our first tuple
+
+print "Printing tuple"
+print my_tuple
+
+print "Printing tuple at position"
+print my_tuple[2] # we print our tuple at the position 2, that is 1.2
+
+print "Print tuple from position 1 to 2"
+print my_tuple[1:3]
+
+# Dicts
+# Dicts are dictionaries, this are different from lists b/c they have 2 values on each position
+# a key and a value itself
+
+harry = { 'name': 'harry', 'last_name': 'potter', 'wizard' : 'yes' }
+
+# on each position we have two values, the ones before the : are called keys
+# ( name, last_name, wizard ) and the ones after the colon are the values
+# we can use the key to access the value of the dic
+
+print "Print value of the dict under the name key"
+print harry['name']
+print "Same for last name"
+print harry['last_name']
+print "Is harry a wizard?"
+print harry['wizard']
+
+# We can also add keys to the dict by doing
+
+harry['best_friend'] = 'Ron'
+
+print "Who is Harrys best friend?"
+print harry['best_friend']
+
+# we have some operations over dics to access all the keys and all the values:
+
+print "Dict keys"
+print harry.keys()
+print "Dict values"
+print harry.values()
