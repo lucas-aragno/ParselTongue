@@ -8,6 +8,7 @@ This repo is to teach people how to use python from scratch
 *Download and follow the official guide for python:*
 https://www.python.org/downloads/
 
+(here is a cool guide (**spanish**): http://lingwars.github.io/blog/instalar-python-en-windows-7.html)
 
 ## OSX
 *If you have homebrew installed just run:*
